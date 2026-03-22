@@ -1,16 +1,26 @@
 
-  <!DOCTYPE html>
-  <html lang="en">
-    <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Artisan Connection Platform</title>
-      <script type="module" crossorigin src="/SILSILA/assets/index-BrcVslAQ.js"></script>
-      <link rel="stylesheet" crossorigin href="/SILSILA/assets/index-DGJ__fCE.css">
-    </head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Artisan Connection Platform</title>
+    <script>
+      // Handle redirect from 404.html for GitHub Pages SPA routing
+      (function() {
+        var redirect = sessionStorage.getItem('redirect');
+        if (redirect) {
+          sessionStorage.removeItem('redirect');
+          history.replaceState(null, '', redirect);
+        }
+      })();
+    </script>
+    <script type="module" crossorigin src="/assets/index-BrcVslAQ.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DGJ__fCE.css">
+  </head>
 
-    <body>
-      <div id="root"></div>
-    </body>
-  </html>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
   
