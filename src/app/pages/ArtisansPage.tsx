@@ -77,7 +77,7 @@ export function ArtisansPage() {
           {filteredArtisans.map((artisan) => (
             <Link
               key={artisan.id}
-              to={`/artisans/${artisan.id}`}
+              to={`/SILSILA/artisans/${artisan.id}`}
               className="bg-white rounded-xl overflow-hidden hover:shadow-xl transition-shadow group"
             >
               <div className="relative h-72 overflow-hidden">

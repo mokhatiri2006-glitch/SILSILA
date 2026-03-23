@@ -8,11 +8,11 @@ export function Layout() {
   const location = useLocation();
 
   const navigation = [
-    { name: "Artisans", href: "/artisans", icon: Users },
-    { name: "Apprenticeships", href: "/apprenticeships", icon: BookOpen },
-    { name: "Workshops", href: "/workshops", icon: Calendar },
-    { name: "Impact", href: "/impact", icon: TrendingUp },
-    { name: "Community", href: "/community", icon: MessageCircle },
+    { name: "Artisans", href: "/SILSILA/artisans", icon: Users },
+    { name: "Apprenticeships", href: "/SILSILA/apprenticeships", icon: BookOpen },
+    { name: "Workshops", href: "/SILSILA/workshops", icon: Calendar },
+    { name: "Impact", href: "/SILSILA/impact", icon: TrendingUp },
+    { name: "Community", href: "/SILSILA/community", icon: MessageCircle },
   ];
 
   const isActive = (path: string) => location.pathname === path;
@@ -24,7 +24,7 @@ export function Layout() {
         <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex h-16 items-center justify-between">
             {/* Logo */}
-            <Link to="/" className="flex items-center gap-2">
+            <Link to="/SILSILA/" className="flex items-center gap-2">
               <div className="w-10 h-10 bg-gradient-to-br from-amber-600 to-orange-600 rounded-lg flex items-center justify-center">
                 <span className="text-white font-bold text-xl">S</span>
               </div>
@@ -116,10 +116,10 @@ export function Layout() {
             <div>
               <h3 className="font-semibold mb-4">Quick Links</h3>
               <ul className="space-y-2 text-sm text-gray-400">
-                <li><Link to="/artisans" className="hover:text-white transition-colors">Find Artisans</Link></li>
-                <li><Link to="/apprenticeships" className="hover:text-white transition-colors">Become an Apprentice</Link></li>
-                <li><Link to="/workshops" className="hover:text-white transition-colors">Book a Workshop</Link></li>
-                <li><Link to="/impact" className="hover:text-white transition-colors">Our Impact</Link></li>
+                <li><Link to="/SILSILA/artisans" className="hover:text-white transition-colors">Find Artisans</Link></li>
+                <li><Link to="/SILSILA/apprenticeships" className="hover:text-white transition-colors">Become an Apprentice</Link></li>
+                <li><Link to="/SILSILA/workshops" className="hover:text-white transition-colors">Book a Workshop</Link></li>
+                <li><Link to="/SILSILA/impact" className="hover:text-white transition-colors">Our Impact</Link></li>
               </ul>
             </div>
             <div>

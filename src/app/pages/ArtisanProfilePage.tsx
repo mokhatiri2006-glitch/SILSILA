@@ -11,7 +11,7 @@ export function ArtisanProfilePage() {
     return (
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 text-center">
         <h1 className="text-2xl font-bold text-gray-900">Artisan not found</h1>
-        <Link to="/artisans" className="text-amber-600 hover:underline mt-4 inline-block">
+        <Link to="/SILSILA/artisans" className="text-amber-600 hover:underline mt-4 inline-block">
           Back to artisans
         </Link>
       </div>
@@ -233,13 +233,13 @@ export function ArtisanProfilePage() {
               
               <div className="space-y-3">
                 <Link
-                  to="/workshops"
+                  to="/SILSILA/workshops"
                   className="block w-full bg-gradient-to-r from-amber-600 to-orange-600 text-white text-center px-4 py-3 rounded-lg hover:shadow-lg transition-shadow"
                 >
                   Book a Workshop
                 </Link>
                 <Link
-                  to="/apprenticeships"
+                  to="/SILSILA/apprenticeships"
                   className="block w-full bg-blue-600 text-white text-center px-4 py-3 rounded-lg hover:bg-blue-700 transition-colors"
                 >
                   Apply for Apprenticeship

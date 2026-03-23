@@ -81,14 +81,14 @@ export function HomePage() {
 
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link
-                  to="/workshops"
+                  to="/SILSILA/workshops"
                   className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-amber-600 to-orange-600 text-white px-6 py-3 rounded-lg hover:shadow-lg transition-shadow"
                 >
                   Book a Workshop
                   <ArrowRight className="w-4 h-4" />
                 </Link>
                 <Link
-                  to="/apprenticeships"
+                  to="/SILSILA/apprenticeships"
                   className="inline-flex items-center justify-center gap-2 bg-white text-amber-600 px-6 py-3 rounded-lg border-2 border-amber-600 hover:bg-amber-50 transition-colors"
                 >
                   Become an Apprentice
@@ -157,7 +157,7 @@ export function HomePage() {
               preserving your craft for future generations.
             </p>
             <Link
-              to="/artisans"
+              to="/SILSILA/artisans"
               className="text-amber-600 font-semibold hover:underline inline-flex items-center gap-1"
             >
               Meet our artisans{" "}
@@ -184,7 +184,7 @@ export function HomePage() {
               in traditional craftsmanship.
             </p>
             <Link
-              to="/apprenticeships"
+              to="/SILSILA/apprenticeships"
               className="text-amber-600 font-semibold hover:underline inline-flex items-center gap-1"
             >
               Explore apprenticeships{" "}
@@ -211,7 +211,7 @@ export function HomePage() {
               treasures while supporting local communities.
             </p>
             <Link
-              to="/workshops"
+              to="/SILSILA/workshops"
               className="text-amber-600 font-semibold hover:underline inline-flex items-center gap-1"
             >
               Book an experience{" "}
@@ -229,7 +229,7 @@ export function HomePage() {
               Featured Artisans
             </h2>
             <Link
-              to="/artisans"
+              to="/SILSILA/artisans"
               className="text-amber-600 font-semibold hover:underline inline-flex items-center gap-1"
             >
               View all <ArrowRight className="w-4 h-4" />
@@ -240,7 +240,7 @@ export function HomePage() {
             {featuredArtisans.map((artisan) => (
               <Link
                 key={artisan.id}
-                to={`/artisans/${artisan.id}`}
+                to={`/SILSILA/artisans/${artisan.id}`}
                 className="bg-white rounded-xl overflow-hidden hover:shadow-lg transition-shadow group"
               >
                 <div className="relative h-64 overflow-hidden">
@@ -281,7 +281,7 @@ export function HomePage() {
               Featured Workshops
             </h2>
             <Link
-              to="/workshops"
+              to="/SILSILA/workshops"
               className="text-amber-600 font-semibold hover:underline inline-flex items-center gap-1"
             >
               View all <ArrowRight className="w-4 h-4" />
